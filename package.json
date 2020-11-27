@@ -1,0 +1,58 @@
+{
+  "name": "ShmeetBack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "startdev": "nodemon server.js"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanPucci/ShmeetBack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanPucci/ShmeetBack/issues"
+  },
+  "homepage": "https://github.com/JonathanPucci/ShmeetBack#readme",
+  "dependencies": {
+    "@types/node": "~6.0.60",
+    "bootstrap": "^3.3.7",
+    "concurrently": "^3.5.1",
+    "core-js": "^2.4.1",
+    "ejs": "^3.0.2",
+    "expo-server-sdk": "^3.5.0",
+    "express": "^4.16.2",
+    "express-async-await": "^1.1.0",
+    "express-async-errors": "^3.1.1",
+    "express-promise-router": "^2.0.0",
+    "firebase": "^8.1.1",
+    "firebase-admin": "^8.10.0",
+    "mime": "^2.2.0",
+    "nodemon": "^1.12.1",
+    "rxjs": "^5.4.2",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.7.0",
+    "typescript": "~2.3.3",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "codelyzer": "~3.2.0",
+    "jasmine-core": "~2.6.2",
+    "jasmine-spec-reporter": "~4.1.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "~2.1.1",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^2.1.1",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "^6.0.0"
+  }
+}
